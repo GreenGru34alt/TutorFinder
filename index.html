@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BrightMind Tutoring — Peer Tutoring for Middle Schoolers</title>
+  <title>TutorFinder — Peer Tutoring for Middle Schoolers</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -412,7 +412,7 @@
 
   <!-- NAV -->
   <nav>
-    <a href="#" class="nav-logo"><span class="dot"></span> BrightMind</a>
+    <a href="#" class="nav-logo"><span class="dot"></span> TutorFinder</a>
     <ul class="nav-links">
       <li><a href="#subjects">Subjects</a></li>
       <li><a href="#pricing">Pricing</a></li>
@@ -433,7 +433,7 @@
       </div>
     </div>
     <div class="hero-visual">
-      <div class="float-badge top">⭐ 5.0 rated tutors</div>
+      <div class="float-badge top">💰 Cheap &amp; reliable</div>
       <div class="hero-card">
         <div class="subjects-grid">
           <div class="subject-chip"><span class="icon">➕</span> Math</div>
@@ -444,7 +444,7 @@
         <div class="card-stat">
           <div>
             <div class="card-stat-label">Sessions completed</div>
-            <div class="card-stat-value">120+</div>
+            <div class="card-stat-value">0+</div>
           </div>
           <div style="font-size:2rem;">🎓</div>
         </div>
@@ -456,11 +456,11 @@
   <!-- STATS -->
   <div class="stats-bar">
     <div class="stat-item fade-up">
-      <div class="stat-num">8+</div>
+      <div class="stat-num">4</div>
       <div class="stat-label">Subjects covered</div>
     </div>
     <div class="stat-item fade-up">
-      <div class="stat-num">120+</div>
+      <div class="stat-num">0+</div>
       <div class="stat-label">Sessions completed</div>
     </div>
     <div class="stat-item fade-up">
@@ -481,7 +481,7 @@
     <div class="subjects-list">
       <div class="subject-card fade-up">
         <div class="subject-icon">➕</div>
-        <div class="subject-name">Pre-Algebra & Algebra</div>
+        <div class="subject-name">Math</div>
         <div class="subject-desc">Fractions, equations, graphing, and everything in between.</div>
       </div>
       <div class="subject-card fade-up">
@@ -491,23 +491,13 @@
       </div>
       <div class="subject-card fade-up">
         <div class="subject-icon">📖</div>
-        <div class="subject-name">English & Reading</div>
+        <div class="subject-name">ELA</div>
         <div class="subject-desc">Comprehension, essay writing, grammar, and vocabulary.</div>
       </div>
       <div class="subject-card fade-up">
         <div class="subject-icon">📜</div>
-        <div class="subject-name">History & Social Studies</div>
+        <div class="subject-name">Social Studies</div>
         <div class="subject-desc">World history, US history, geography, and civics.</div>
-      </div>
-      <div class="subject-card fade-up">
-        <div class="subject-icon">🌍</div>
-        <div class="subject-name">Spanish / French</div>
-        <div class="subject-desc">Vocabulary, verb conjugation, and conversational practice.</div>
-      </div>
-      <div class="subject-card fade-up">
-        <div class="subject-icon">🖥️</div>
-        <div class="subject-name">Computer Basics</div>
-        <div class="subject-desc">Typing, Google tools, intro to coding, and digital skills.</div>
       </div>
     </div>
   </section>
@@ -521,7 +511,7 @@
 
       <div class="price-card fade-up">
         <div class="plan-name">Single Session</div>
-        <div class="price-amount">$12</div>
+        <div class="price-amount">$5</div>
         <div class="price-per">per hour · pay as you go</div>
         <ul class="price-features">
           <li>1-on-1 tutoring session</li>
@@ -535,8 +525,8 @@
       <div class="price-card featured fade-up">
         <div class="popular-tag">Most Popular</div>
         <div class="plan-name">4-Session Pack</div>
-        <div class="price-amount">$40</div>
-        <div class="price-per">$10/hr · best for exam prep</div>
+        <div class="price-amount">$12</div>
+        <div class="price-per">$3/hr · best for exam prep</div>
         <ul class="price-features">
           <li>4 hours of tutoring</li>
           <li>Mix subjects freely</li>
@@ -549,8 +539,8 @@
 
       <div class="price-card fade-up">
         <div class="plan-name">Monthly Plan</div>
-        <div class="price-amount">$72</div>
-        <div class="price-per">$9/hr · 8 hours/month</div>
+        <div class="price-amount">$16</div>
+        <div class="price-per">$2/hr · 8 hours/month</div>
         <ul class="price-features">
           <li>8 hours of tutoring</li>
           <li>Dedicated tutor assigned</li>
@@ -644,13 +634,10 @@
               <label for="subject">Subject Needed</label>
               <select id="subject" name="subject" required>
                 <option value="" disabled selected>Choose a subject</option>
-                <option>Pre-Algebra / Algebra</option>
+                <option>Math</option>
                 <option>Science</option>
-                <option>English & Reading</option>
-                <option>History & Social Studies</option>
-                <option>Spanish / French</option>
-                <option>Computer Basics</option>
-                <option>Other</option>
+                <option>ELA</option>
+                <option>Social Studies</option>
               </select>
             </div>
 
@@ -658,9 +645,9 @@
               <label for="plan">Session Package</label>
               <select id="plan" name="plan" required>
                 <option value="" disabled selected>Choose a plan</option>
-                <option>Single Session — $12/hr</option>
-                <option>4-Session Pack — $40 ($10/hr)</option>
-                <option>Monthly Plan — $72 ($9/hr)</option>
+                <option>Single Session — $5/hr</option>
+                <option>4-Session Pack — $12 ($3/hr)</option>
+                <option>Monthly Plan — $16 ($2/hr)</option>
               </select>
             </div>
 
@@ -698,7 +685,7 @@
 
   <!-- FOOTER -->
   <footer>
-    <p>© 2025 <span>BrightMind Tutoring</span> · Peer tutoring by students, for students 📚</p>
+    <p>© 2025 <span>TutorFinder</span> · Peer tutoring by students, for students 📚</p>
   </footer>
 
   <script>
